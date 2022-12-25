@@ -1,3 +1,3 @@
 GitHubConnected
 
-check GIT Commit message
+check GIT Commit message 
