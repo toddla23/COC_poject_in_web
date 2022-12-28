@@ -1,0 +1,26 @@
+#sheet{ 
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 100%;
+  min-height: 90vh;
+}
+
+table{
+  margin:20px;
+  display: table;
+  height: auto;
+  border: 2px solid gray;
+  border-spacing: 2px;
+  table-layout:fixed;
+
+}
+td{
+  display: table-cell;
+  border: 2px solid gray;
+
+}
+
+input{
+  width: 50px;
+}
