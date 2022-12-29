@@ -1,26 +1,41 @@
 #sheet{ 
   display: flex;
   align-items: center;
-  flex-direction: row-reverse;
+  flex-direction: row;
   width: 100%;
   min-height: 90vh;
+  border: 2px solid blue;
+  margin: 20px;
 }
 
 table{
+  width: 50vh;
   margin:20px;
-  display: table;
   height: auto;
   border: 2px solid gray;
   border-spacing: 2px;
-  table-layout:fixed;
 
 }
 td{
-  display: table-cell;
-  border: 2px solid gray;
+  width: fit-content;
+  height: fit-content;
+}
 
+td{
+  border: 2px solid gray;
 }
 
 input{
   width: 50px;
+}
+
+#status_condition > tr > td{
+  width: 120px;
+  background-color: red;
+}
+
+#title{
+  background-color: dodgerblue;
+  text-align: center;
+  font-size: 30px;
 }
