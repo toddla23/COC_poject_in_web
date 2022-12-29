@@ -1,0 +1,28 @@
+From a2b67341f2c27fe45875d193cf99b1ca7de1f653 Mon Sep 17 00:00:00 2001
+From: "DESKTOP-PQ8SB5P\\qkrwh" <qkrwhdgur0319@gmail.com>
+Date: Thu, 29 Dec 2022 12:48:33 +0900
+Subject: [PATCH] =?UTF-8?q?=EA=B4=84=ED=98=B8?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ updatelog/updateLog.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/updatelog/updateLog.html b/updatelog/updateLog.html
+index 270c224..d70516e 100644
+--- a/updatelog/updateLog.html
++++ b/updatelog/updateLog.html
+@@ -5,7 +5,7 @@
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+-  <link rek="stylesheet" href="style.css"
++  <link rek="stylesheet" href="style.css">
+ </head>
+ <body>
+   <p>
+-- 
+2.36.1.windows.1
+
