@@ -1,41 +1,62 @@
 #sheet{ 
   display: flex;
-  align-items: center;
-  flex-direction: row;
+  align-items:flex-end;
+  flex-direction: column;
   width: 100%;
   min-height: 90vh;
   border: 2px solid blue;
   margin: 20px;
 }
+#sheet > div{
+  margin: 10px;
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+}
 
 table{
-  width: 50vh;
   margin:20px;
-  height: auto;
   border: 2px solid gray;
   border-spacing: 2px;
-
+}
+caption{
+  font-size: 23px;
 }
 td{
   width: fit-content;
   height: fit-content;
-}
-
-td{
   border: 2px solid gray;
+  font-size: 18px;
 }
 
 input{
   width: 50px;
+  height: 20px;
 }
 
-#status_condition > tr > td{
-  width: 120px;
-  background-color: red;
+#info{
+  width: 0.25em;
 }
+#status{
+  width: 0.3em;
+}
+
+#status_condition{
+  width: 9em;
+}
+
 
 #title{
-  background-color: dodgerblue;
+  background-color: #CFF0CC;
   text-align: center;
   font-size: 30px;
+  border-radius: 10PX;
+}
+
+#status_condition input{
+  width: 20rem;
+  height: 20px;
 }
