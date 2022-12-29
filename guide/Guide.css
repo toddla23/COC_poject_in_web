@@ -1,0 +1,17 @@
+.guide_line{
+  margin: 20px;
+  padding: auto;
+}
+
+
+.guide_line > p{
+  border-radius: 10px;
+  padding: 10px;
+  background-color: dodgerblue;
+  font-size: 25px;
+}
+
+.guide_line > p >mark{
+  background: none;
+  color: orange;
+}
