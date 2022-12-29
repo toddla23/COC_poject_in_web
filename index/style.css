@@ -13,7 +13,7 @@ body {
 
 }
 #header > *:first-child{
-  border-radius: 8%;
+  border-radius: 8px;
 }
 
 #header {
@@ -21,7 +21,7 @@ body {
   flex-basis: 30px;
   align-items: flex-end;
   padding: 8px;
-  background-color: dodgerblue;
+  background-color: #829674;
   gap: 12px;
 } 
 
@@ -35,7 +35,7 @@ body {
 
 #header> *:first-child{ 
   flex-basis: 150px;
-  background-color: darkgray;
+  background-color: #558203;
 }
 
 .login{
@@ -61,11 +61,6 @@ img[src="picture.jpg"]{
   width: 70vh;
 }
 
-#row{
-
-  
-}
-
 .feature-list{
   display: flex;
   flex-direction: row;
@@ -74,35 +69,37 @@ img[src="picture.jpg"]{
   padding: 12px;
   gap: 40px;
   flex-basis: 200px;
-  background-color: olivedrab;
+  background-color: whitesmoke;
   justify-content: center;
   align-items: stretch;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
+
 h1{
   margin-top: 10px;
   margin-bottom: 5px;
 }
+
 a{
   text-decoration: none;
   color:white;
 }
+
 .feature-list > a{
   padding: 12px;
-  background-color: deepskyblue;
+  background-color: #CFF0CC;
   text-decoration: none;
-  flex-basis: 13.5em;
+  flex-basis: 13em;
   text-align: center;
   font-size: 17px;
   font-weight: bold;
-}
-
-
-#content {
-  padding: 24px;
-  background-color: deepskyblue;
+  height: 175px;
+  width: 250px;
+  border-radius: 20px;
 }
 
 #footer {
   flex-basis: 60px;
-  background-color: tomato;
+  background-color: #829674;
 }
