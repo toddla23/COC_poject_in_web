@@ -32,7 +32,7 @@
 		<div id="main">
 
       <div id="sheet">
-        <div>
+        <div class="sheet_base">
           <table id="info">
             <tr>
               <caption colspan="2">탐사자 정보</caption>
@@ -172,7 +172,7 @@
           </table>
         </div>
 
-        <div>
+        <div class="sheet_base">
           <table id="HP_LUK_MP">
             <tr>
               <td>
@@ -193,10 +193,11 @@
               </td>
             </tr>
           </table>
-          <div>
+
+          <div id = "body_size">
             <P id="title">COC character</P>
 
-            <table id="HP_LUK_MP">
+            <table id="body_size_table">
               <tr>
                 <td>
                   <label for="status">피해보너스: </label>
@@ -212,7 +213,7 @@
     
           
     
-          <table id="HP_LUK_MP">
+          <table id="mental">
             <tr>
               <td>
                 <label for="status">체력: </label>
@@ -282,6 +283,54 @@
           </table>
         </div>
       
+        <div id="investigator_function">
+          <table>
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">감정</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">언어</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">크툴루 신화</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+            </tr>
+          </table>
+        </div>
     
       </div>
 

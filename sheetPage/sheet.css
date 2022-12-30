@@ -25,9 +25,11 @@ table{
 caption{
   font-size: 23px;
 }
+
 td{
-  width: fit-content;
-  height: fit-content;
+  min-width: fit-content;
+  width: 40px;
+  height: 35px;
   border: 2px solid gray;
   font-size: 18px;
 }
@@ -38,25 +40,69 @@ input{
 }
 
 #info{
-  width: 0.25em;
+  flex-grow: 2;
 }
 #status{
-  width: 0.3em;
+  flex-grow: 3;
 }
 
 #status_condition{
-  width: 9em;
+  flex-grow: 4;
 }
-
+#status_condition input{
+  width: 20em;
+  height: 17px;
+}
 
 #title{
   background-color: #CFF0CC;
   text-align: center;
   font-size: 30px;
-  border-radius: 10PX;
+  border-radius: 10px;
 }
 
-#status_condition input{
-  width: 20rem;
-  height: 20px;
+#HP_LUK_MP
+{
+  flex-grow: 1;
+}
+
+#body_size
+{
+  flex-grow: 2;
+}
+
+#body_size_table td{
+  width: max-content;
+}
+
+#mental
+{
+  flex-grow: 1;
+}
+
+#mental_condition{
+  flex-grow: 3;
+}
+
+
+#mental_condition input{
+  width: 20em;
+  height: 17px;
+}
+
+.function_table{
+  width: fit-content;
+  margin: 0;
+}
+
+
+.function_name{
+  width: 100px;
+  height: 10px;
+  white-space:nowrap;
+}
+
+.function_table input{
+  width: 20px;
+  height: 15px;
 }
