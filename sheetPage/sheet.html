@@ -284,9 +284,23 @@
         </div>
       
         <div id="investigator_function">
-          <table>
+          <table id="investigator_function_table">
             <tr>
-              <td>
+              <td colspan="9">탐사자 기능</td>
+            </tr>
+            <tr id="score">
+              <td>기능목록</td>
+              <td>직업기능 점수</td>
+              <td><input type="number"></td>
+              <td>관심기능 점수</td>
+              <td><input type="number"></td>
+              <td>스킬 성장</td>
+              <td><input type="number"></td>
+              <td>남은 점수</td>
+              <td><input type="number"></td>
+            </tr>
+            <tr>
+              <td colspan="2">
                 <table class="function_table">
                   <tr>
                     <td><input type="checkbox"></td>
@@ -300,7 +314,7 @@
                 </table>
               </td>
 
-              <td>
+              <td colspan="3">
                 <table class="function_table">
                   <tr>
                     <td><input type="checkbox"></td>
@@ -314,7 +328,7 @@
                 </table>
               </td>
 
-              <td>
+              <td colspan="3">
                 <table class="function_table">
                   <tr>
                     <td><input type="checkbox"></td>
@@ -327,9 +341,767 @@
                   </tr>
                 </table>
               </td>
+            </tr>
 
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">고고학</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">역사</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">투척</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">관찰력</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">열쇠공</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">항법</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">근접전(격투)</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">오르기</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">회계</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">기계수리</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">오컬트</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">회피</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">도약</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">위협</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">외국어</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">듣기</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">은밀행동</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">과학</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">말재주</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">응급처치</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">예술/공예()</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">매혹</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">의료</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">사격()</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">법률</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">인류학</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">근접전()</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">변장</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">자동차 운전</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">생존술()</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">사격(권총)</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">자료조사</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">???</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">사격(라/산)</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">자연</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">???</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">설득</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">재력</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">???</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">손놀림</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">전기수리</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">???</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">수영</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">정신분석</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">???</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">승마</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">중장비 조작</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">???</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">심리학</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">추적</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
+
+              <td>
+                <table class="function_table">
+                  <tr>
+                    <td><input type="checkbox"></td>
+                    <td class="function_name">???</td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                  </tr>
+                </table>
+              </td>
             </tr>
           </table>
+          
         </div>
     
       </div>

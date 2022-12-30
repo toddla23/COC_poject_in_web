@@ -106,3 +106,12 @@ input{
   width: 20px;
   height: 15px;
 }
+
+#investigator_function_table{
+  width: 10px;
+  white-space:nowrap; 
+}
+#score td{
+  width: 10px;
+  white-space:nowrap; 
+}
