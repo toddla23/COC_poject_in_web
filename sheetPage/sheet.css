@@ -16,6 +16,10 @@
   justify-content: space-around;
   width: 80%;
 }
+h1{
+  text-align: center;
+  margin-bottom: 10px;
+}
 
 table{
   margin:20px;
@@ -42,6 +46,7 @@ input{
 #info{
   flex-grow: 2;
 }
+
 #status{
   flex-grow: 3;
 }
@@ -50,15 +55,17 @@ input{
   flex-grow: 4;
 }
 #status_condition input{
-  width: 20em;
+  width: 80%;
   height: 17px;
 }
 
 #title{
+  border:none;
   background-color: #CFF0CC;
   text-align: center;
   font-size: 30px;
   border-radius: 10px;
+  margin: auto;
 }
 
 #HP_LUK_MP
@@ -111,6 +118,7 @@ input{
   display: flex;
   flex-direction: row;
 }
+
 #investigator_function_table
 {
   flex-grow: 2;
@@ -152,11 +160,43 @@ input{
 }
 
 .backstory_name{
-  min-width: 100px;
   flex-grow: 1;
 }
 
 .backstory_contents{
   flex-grow: 5;
-  height: 244px;
+  
+}
+
+.battle{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#weapon_table td{
+  text-align: center;
+  width: fit-content;
+}
+
+
+#inventory{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+}
+#inventory div{
+  flex-grow: 1;
+
+}
+
+#inventory p{
+  background-color: white;
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid gray;
+  width: 90%;
+  height: 210px;
 }
