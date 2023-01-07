@@ -183,7 +183,7 @@
             </tr>
             <tr>
               <td>
-                <label for="status">행운: </label>
+                <label for="status">이동력: </label>
                 <input type="number">
               </td>
             </tr>
@@ -217,19 +217,19 @@
           <table id="mental">
             <tr>
               <td>
-                <label for="status">체력: </label>
+                <label for="status">이성: </label>
                 <input type="number">
               </td>
             </tr>
             <tr>
               <td>
-                <label for="status">행운: </label>
+                <label for="status">발작: </label>
                 <input type="number" >
               </td>
             </tr>
             <tr>
               <td>
-                <label for="status">마력: </label>
+                <label for="status">현재 정신 상태: </label>
                 <input type="number" >
               </td>
             </tr>
@@ -303,11 +303,11 @@
               </tr>
               <tr>
                 <td colspan="3">
-                  <table class="function_table" id="">
+                  <table class="function_table" id="appraisal">
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">감정</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="5" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -335,7 +335,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">크툴루 신화</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="0" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -351,7 +351,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">고고학</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="1" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -365,7 +365,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">역사</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="5" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -379,7 +379,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">투척</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="20" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -396,7 +396,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">관찰력</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="25" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -410,7 +410,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">열쇠공</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="1" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -424,7 +424,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">항법</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="10" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -441,7 +441,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">근접전(격투)</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="25" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -455,7 +455,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">오르기</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="20" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -469,7 +469,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">회계</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="5" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -486,7 +486,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">기계수리</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="10" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -500,7 +500,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">오컬트</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="5" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -514,7 +514,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">회피</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="25" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -531,7 +531,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">도약</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="20" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -545,7 +545,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">위협</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="15" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -559,7 +559,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">외국어</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="1" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -576,7 +576,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">듣기</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="20" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -590,7 +590,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">은밀행동</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="20" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -604,7 +604,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">과학</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="10" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -621,7 +621,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">말재주</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="5" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -635,7 +635,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">응급처치</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="30" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -649,7 +649,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">예술/공예()</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="5" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -666,7 +666,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">매혹</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="15" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -680,7 +680,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">의료</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="1" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -694,7 +694,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">사격()</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="0" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -711,7 +711,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">법률</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="5" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -725,7 +725,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">인류학</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="1" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -739,7 +739,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">근접전()</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="0" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -756,7 +756,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">변장</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="5" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -770,7 +770,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">자동차 운전</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="20" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -784,7 +784,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">생존술()</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="10" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -801,7 +801,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">사격(권총)</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="20" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -815,7 +815,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">자료조사</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="20" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -829,7 +829,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">???</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="0" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -845,7 +845,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">사격(라/산)</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="25" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -859,7 +859,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">자연</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="10" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -873,7 +873,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">???</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="0" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -889,7 +889,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">설득</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="10" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -903,7 +903,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">재력</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="0" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -917,7 +917,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">???</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="0" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -933,7 +933,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">손놀림</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="10" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -947,7 +947,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">전기수리</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="10" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -961,7 +961,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">???</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="0" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -977,7 +977,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">수영</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="20" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -991,7 +991,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">정신분석</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="10" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -1005,7 +1005,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">???</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="0" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -1021,7 +1021,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">승마</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="5" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -1035,7 +1035,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">중장비 조작</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="1" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -1049,7 +1049,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">???</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="0" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -1065,7 +1065,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">심리학</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="10" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -1079,7 +1079,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">추적</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="10" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -1093,7 +1093,7 @@
                     <tr>
                       <td><input type="checkbox"></td>
                       <td class="function_name">???</td>
-                      <td><input type="number" value="50" class="defult"></td>
+                      <td><input type="number" value="0" class="defult"></td>
                       <td><input type="number" value="0" class="input_score"></td>
                       <td><input type="number" value="0" class="normal"></td>
                       <td><input type="number" value="0" class="hard"></td>
@@ -1104,62 +1104,57 @@
               </tr>
             </table>
           </div>  
-          <div id = backstory>
+          <div id = backstory>  
             <h1>백스토리</h1>
             <div id="appearance">
               <p class="backstory_name">겉보기</p>
-              <p class="backstory_contents">적당히 생김</p>
+              <textarea class="backstory_contents" placeholder="여기에 입력" value={text}></textarea>
               
             </div>
             
-            <div id="appearance">
+            <div id="p">
               <p class="backstory_name">성격</p>
-              <p class="backstory_contents">적당한 성격</p>
-              
+              <textarea class="backstory_contents" placeholder="여기에 입력" value={text}></textarea>
             </div>
-            <div id="personality">
+            <div id="relationship">
               <p class="backstory_name">관계</p>  
-              <p class="backstory_contents"> ----------------</p>
+              <textarea class="backstory_contents" placeholder="여기에 입력" value={text}></textarea>
             </div>
 
-            <div id="appearance">
+            <div id="etc">
               <p class="backstory_name">기타</p>
-              <p class="backstory_contents"> ---------------</p>
+              <textarea class="backstory_contents" placeholder="여기에 입력" value={text}></textarea>
             </div>
 
             <div id="belief">
               <p class="backstory_name">신념/사상</p>
-              <p class="backstory_contents"> ---------------</p>
+              <textarea class="backstory_contents" placeholder="여기에 입력" value={text}></textarea>
             </div>
 
             <div id="location">
               <p class="backstory_name">장소</p>
-              <p class="backstory_contents"> ---------------</p>
+              <textarea class="backstory_contents" placeholder="여기에 입력" value={text}></textarea>
             </div>
 
             <div id="phobia">
-              <p class="backstory_name">공포증과 집착증</p>
-              <p class="backstory_contents"> ---------------</p>
+              <p class="backstory_name">공포증과<br>집착증</p>
+              <textarea class="backstory_contents" placeholder="여기에 입력" value={text}></textarea>
             </div>
 
             <div id="experience">
-              <p class="backstory_name">이상한 경험</p>
-              <p class="backstory_contents"> ---------------</p>
+              <p class="backstory_name">이상한<br>경험</p>
+              <textarea class="backstory_contents" placeholder="여기에 입력" value={text}></textarea>
             </div>
 
             <div id="spell">
               <p class="backstory_name">신화서 주문 유물</p>
-              <p class="backstory_contents"> ---------------</p>
+              <textarea class="backstory_contents" placeholder="여기에 입력" value={text}></textarea>
             </div>
           </div>
-
-
-
-
         </div>
 
         <div class="sheet_base">
-          <div id="battle" >
+          <div id="battle">
             <h1>전투</h1>
             <table id="weapon_table">
               <tr>
@@ -1283,12 +1278,12 @@
           <div id="inventory">
             <div>
               <h1>장비</h1>
-              <p>---------------</p>
+              <textarea placeholder="여기에 입력" value={text}></textarea>
             </div>
             
             <div>
               <h1>소지품</h1>
-              <p>---------------</p>
+              <textarea placeholder="여기에 입력" value={text}></textarea>
             </div>
           </div>
 
@@ -1296,23 +1291,16 @@
         </div>
 
 
-        </div>
+
+      </div>
         
 
 
-    
-      </div>
+    </div>
+    <div id="footer">
+    </div>
+	</div>
 
-
-			
-			
-		</div>
-
-		
-
-		<div id="footer">
-		</div>
-  </div>
-  <script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

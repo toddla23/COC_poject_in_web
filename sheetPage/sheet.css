@@ -42,6 +42,11 @@ input{
   width: 50px;
   height: 20px;
 }
+#input_finished{
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
 
 #info{
   flex-grow: 2;
@@ -148,28 +153,34 @@ input{
   flex-direction: column;
   border: 2px solid gray;
   text-align: center;
+  height: 100%;
 }
 
 #backstory div{
   display: flex;
   flex-direction: row;
+  height: 10.3%;
 }
 
-#backstory p{
+
+
+.backstory_name{
   background-color: white;
   text-align: center;
   font-size: 18px;
   margin: 8px;
   border: 2px solid gray;
-
-}
-
-.backstory_name{
-  flex-grow: 1;
+  width: 50px;
+  
 }
 
 .backstory_contents{
+  background-color: white;
+  font-size: 18px;
+  margin: 8px;
+  border: 2px solid gray;
   flex-grow: 5;
+  height: 80%;
   
 }
 
@@ -197,11 +208,12 @@ input{
 
 }
 
-#inventory p{
+#inventory textarea{
   background-color: white;
   text-align: center;
   font-size: 18px;
   border: 2px solid gray;
   width: 90%;
   height: 210px;
+  word-break: break-all;
 }
