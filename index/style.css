@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Dongle-Regular";
-  src: url(./fonts/Dongle-Regular.ttf);
+  font-family: "Nana";
+  src: url('../fonts/nana-font.ttf') format('truetype');
 }
 
 body {
