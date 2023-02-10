@@ -1,0 +1,17 @@
+#login{
+  margin: 60px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 500px;
+
+}
+p{
+  margin: 5px;
+}
+
+#btn_login{
+  margin-top: 15px;
+background-color: black;
+}
